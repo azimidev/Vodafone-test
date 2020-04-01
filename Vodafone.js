@@ -40,7 +40,7 @@
  * @returns {Promise}
  */
 function delay(seconds) {
-  return new Promise((resolve) => setTimeout(() => resolve(), seconds));
+  return new Promise(resolve => setTimeout(() => resolve(), seconds));
 }
 
 /**
