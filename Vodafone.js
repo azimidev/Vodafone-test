@@ -50,16 +50,24 @@ function delay(seconds) {
  * @return {object}
  */
 function handleErrorCode(errorCode) {
+  let obj = { title: 'Error page', message: '' };
+
   switch (errorCode) {
     case 'NO_STOCK':
-      return { title: 'Error page', message: 'No stock has been found' };
+      obj.message = 'No stock has been found';
+      break;
     case 'INCORRECT_DETAILS':
-      return { title: 'Error page', message: 'Incorrect details have been entered' };
+      obj.message = 'Incorrect details have been entered';
+      break;
     case 'NO_STOCK':
-      return { title: 'Error page', message: 'No stock has been found' };
+      obj.message = 'No stock has been found';
+      break;
     default:
-      return { title: 'Error page', message: null };
+      obj.message = null;
+      break;
   }
+
+  return obj;
 }
 
 function getProcessingPage(data) {
