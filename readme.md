@@ -1,5 +1,3 @@
-![Vodafone](https://www.freepnglogos.com/uploads/vodafone-png-logo/vodafone-logo-clarify-business-development-16.png)
-
 # Vodafone Tech Test
 
 ## Installation
@@ -11,3 +9,5 @@
 3. In the root of the file please run `node Vodafone.test`
 
 You should be able to see the results in console.
+
+![Vodafone](https://www.freepnglogos.com/uploads/vodafone-png-logo/vodafone-logo-clarify-business-development-16.png)
