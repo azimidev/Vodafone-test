@@ -59,9 +59,6 @@ function handleErrorCode(errorCode) {
     case 'INCORRECT_DETAILS':
       obj.message = 'Incorrect details have been entered';
       break;
-    case 'NO_STOCK':
-      obj.message = 'No stock has been found';
-      break;
     default:
       obj.message = null;
       break;
@@ -97,5 +94,5 @@ getProcessingPage([
   // { state: 'processing' },
   // { state: 'success' },
   { state: 'processing' },
-  { state: 'error', errorCode: 'INCORRECT_DETAILS' },
+  { state: 'error' },
 ]);
