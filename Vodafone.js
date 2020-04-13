@@ -97,5 +97,5 @@ getProcessingPage([
   // { state: 'processing' },
   // { state: 'success' },
   { state: 'processing' },
-  { state: 'error' },
+  { state: 'error', errorCode: 'INCORRECT_DETAILS' },
 ]);
